@@ -1,0 +1,64 @@
+<!--
+  Generated template for the EditPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Edit</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+
+
+
+    <ion-list>
+
+        <ion-item>
+          <ion-label floating>title</ion-label>
+          <ion-input type="text" [(ngModel)]="myInfo.title"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label floating>province</ion-label>
+          <ion-input type="text" [(ngModel)]="myInfo.province"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label floating>name</ion-label>
+          <ion-input type="text" [(ngModel)]="myInfo.name"></ion-input>
+        </ion-item>
+    
+        <ion-item>
+          <ion-label floating> date</ion-label>
+          <ion-input type="text" [(ngModel)]="myInfo.pdate"></ion-input>
+        </ion-item>
+
+        <ion-item>
+            <ion-label floating>  time</ion-label>
+            <ion-input type="text" [(ngModel)]="myInfo.ptime"></ion-input>
+          </ion-item>
+      
+        <ion-item>
+          <ion-label floating>description</ion-label>
+          <ion-textarea type="text" [(ngModel)]="myInfo.description"></ion-textarea>
+        </ion-item>
+      
+      </ion-list>
+    
+    
+      <div padding>
+        <button   ion-button color="secondary"   (click)="myUpdate()"   >Update</button>
+      </div>
+
+
+
+
+
+
+
+</ion-content>

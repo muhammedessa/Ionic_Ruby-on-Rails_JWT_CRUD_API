@@ -1,0 +1,1 @@
+export const apiKey = 'https://iraqapi.herokuapp.com/'
